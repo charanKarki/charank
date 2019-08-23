@@ -36,14 +36,7 @@ $(document).ready(function () {
         // aimation 
 
 
-        // scroll animation
-      anime({
-          targets:'#header .jumbotron .btn',
-          translateX:[50,0],
-          opacity:[0,1],
-          easing: 'linear',
 
-      })
 
     
       var controller = new ScrollMagic.Controller()

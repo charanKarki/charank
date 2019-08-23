@@ -2,7 +2,7 @@
 @import 'respondMixin';
 
 // COLOR FROM SELECTED ITEMS 
-$buttoncolor: #06BCC1;
+$buttoncolor: rgb(7, 178, 184);
 $bigheadingcolor: #204969;
 $whiteparacolor: rgba(218, 218, 218, 0.54);
 $blackparacolor: rgba(126, 122, 122, 0.808);
@@ -162,7 +162,23 @@ header{
 }
 
 /*our work section */
+#work{
+    .row{
+        .col-sm-12{
+            text-align: center;
+            overflow: hidden;
+           a{
+               color: $bigheadingcolor;
+           }
+            img:hover{
+                transform: scale(1.2,1.2);
+                z-index:10
+            }
 
+            
+        }
+    }
+}
 /*working people section*/
 #aboutme{
     margin: 5% auto ;
